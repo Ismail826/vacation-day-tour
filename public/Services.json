@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel Booking",
+    "description": "Australia is the home to ULTIMATE Adventure! Fall in love with our iconic Great Barrier Reef, Visit the Famous Sydney Opera House, Experience the Majestic Australian Outback, Explore the Vibrant Layaways of Melbourne city and more!  Whether you are thinking about taking a Gap Year, Working Holiday, Short or Extended break, our range of Australian Tour Packages, Short Adventures, Guided Tours and Work and Travel Programs are sure to give you an ULTIMATE Experience.",
+    "img": "https://i.ibb.co/Qn5n7C9/649494-200.png"
+  },
+  {
+    "id": 2,
+    "name": "Flight Booking",
+    "description": "Scenic wonders, rich heritage, warm hospitality... all part of what makes Canada such an intriguing place to visit. On our Canada tours you'll explore the picturesque isles and craggy shores in the east, dazzling mountain lakes and world-class resorts in the Canadian Rockies, cosmopolitan cities, and rugged Yukon Territory. Immerse yourself in the French ambiance of walled Quebec and the Gaspesian, charming Scottish Nova Scotia, or very British Victoria. Travel back to the golden era of luxury—on a Canada train trip, or come face to face with remote fishing villages, intricate totem poles carved by First Nations people, breathtaking national parks, and historic sites. You'll enjoy the must-see attractions—plus special experiences you won't get anywhere else…tour a traditional sugar shack to learn how maple syrup is made, visit a dogsled facility to meet the huskies and their trainers, and so much more. With Globous, you'll truly discover the undiscovered in Canada.",
+    "img": "https://i.ibb.co/zHZnbbp/images.png"
+  },
+  {
+    "id": 3,
+    "name": "Ticket Booking",
+    "description": "As the world leader in travel experiences since 1947, we connect you to the real France in a way like no other. From the very first day, it will be easy to see why France attracts more visitors than any other country on Earth. An intoxicating blend of sweeping vineyards, romantic cities and quaint coastal villages, a French trip with Trafalgar can be as varied as a Bordeaux wine menu. We fill your tour of France with the many highlights of this country, taking in the soaring 8th century church of Mont St. Michel and saving time for the authentic scents at Fragonard Perfumeries. Back in Paris, we catch the iconic Moulin Rouge and devote an entire day to the breathtaking enormity of The Louvre museum. Live out the fairytale of an Audrey Hepburn film and experience an international reputation for sophisticated art, food and culture. With us, France will be every bit as wonderful as you dream it to be. Travel with us and unlock the infinite possibilities thanks to our exclusive Trafalgar Highlights.",
+    "img": "https://i.ibb.co/dW6f3XB/ticket.png"
+  },
+  {
+    "id": 4,
+    "name": "Cruises Booking",
+    "description": "City or countryside, coast or mountains, culture or nature? In Germany, you don't have to choose  many sights can be found within a short distance. The excellent local transport networks and regional TouristCards ensure that you reach your favorite destinations not only quickly and comfortably, but also affordably and sustainably. Visitors who would like to, and are able to do so, can travel on foot, by bicycle or even by canoe on many designated routes, close to nature and with zero carbon emissions.",
+    "img": "https://i.ibb.co/HTN77Yr/ship.png"
+  },
+  {
+    "id": 5,
+    "name": "Rail Booking",
+    "description": "The most popular tourist attractions in Japan are gourmet food, visits to historical shrines and temples, hot springs, and activities in the great outdoors.If you have already been to Japan several times and have visited all the major tourist spots in Japan such as Tokyo and Kyoto, the next place you should visit is the Taihoku region and other rural areas.",
+    "img": "https://i.ibb.co/0ngLp7v/rail.png"
+  },
+  {
+    "id": 6,
+    "name": "Amazing Tour",
+    "description": "As the world leader in travel experiences since 1947, we connect you to the real United States in a way like no other. Supersized and wildly diverse, the United States does everything in epic proportions and leaves no one indifferent. With a mix of seasons, landscapes and cultures, you can experience a new adventure each day as you tour the states. Our holidays in the US will take you from the East Coast, where you can roam the eclectic neighborhoods and museums of New York and take a boat ride under Niagara Falls, to the West Coast, where you'll find a new story. Explore the mighty depths of the Grand Canyon, see the glittering lights of Las Vegas, and savour fresh seafood at Fisherman's Wharf in San Francisco. From Washington to the Wild West, from Detroit Motown to New Orleans jazz, from the Texan cowboys to the Inuits of Alaska, and with all the spectacular mountains, forests, beaches and desert in between, the United States is an endless playground. Travel with us and unlock the infinite possibilities thanks to our exclusive Trafalgar Highlights.",
+    "img": "https://i.ibb.co/z8HRp4z/home.png"
+  }
+]
