@@ -25,9 +25,10 @@ const Header = () => {
                             <Nav.Link  href="#home">Home</Nav.Link>
                             <Nav.Link  href='home#packages'>Packages</Nav.Link>
                             <Nav.Link href="home#services">Services</Nav.Link>
+                            <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
+                            <Nav.Link as={Link} to="about">About</Nav.Link>
 
                             {user ? <Button onClick={logout}>Log Out</Button> :
                                 <Nav.Link as={Link} eventKey={2} to="login">
