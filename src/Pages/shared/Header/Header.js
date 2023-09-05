@@ -18,13 +18,13 @@ const Header = () => {
                 pathname.includes("packagesDetails") ? { display: "none" } : { display: "flex" }
             } collapseOnSelect expand="lg" sticky='top' className=" nav-container " >
                 <Container>
-                    <Navbar.Brand  as={Link} to="/"> <img style={{height:"30px"}} src={logo} alt=''/> Vacation Tour </Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"> <img style={{height:"30px"}} src={logo} alt=''/> Vacation Tour </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link as={Link} to="home">Home</Nav.Link>
-                            <Nav.Link as={Link}  to="packages">Packages</Nav.Link>
-                            <Nav.Link as={Link} to="services">Services</Nav.Link>
+                            <Nav.Link  href="#home">Home</Nav.Link>
+                            <Nav.Link  href='home#packages'>Packages</Nav.Link>
+                            <Nav.Link href="home#services">Services</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link href="#deets">More deets</Nav.Link>

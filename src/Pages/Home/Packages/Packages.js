@@ -7,7 +7,7 @@ import { packageDetailsContext } from "../../../App"
 const Packages = () => {
     const [packages, setPackages] = useContext(packageDetailsContext);
     return (
-        <div>
+        <div id="packages">
             <h1 className='services-title'>Our Tour Packages</h1>
 
             <div className='services-container'>

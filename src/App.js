@@ -11,6 +11,10 @@ import { createContext } from 'react';
 import Packages from './Pages/Home/Packages/Packages';
 import usePackages from './hooks/usePackages';
 import Services from './Pages/Home/Services/Services';
+import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+// import Checkout from './Pages/Home/Home/Checkout/Checkout';
+import Checkout from './Pages/Home/Checkout/Checkout';
+
 export const packageDetailsContext = createContext();
 
 function App() {
@@ -23,9 +27,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}>Home</Route>
         <Route path='/home' element={<Home></Home>}>Home</Route>
-        <Route  path='/packages' element={<Packages></Packages>}></Route>
+        <Route path='/packages' element={<Packages></Packages>}></Route>
         <Route path='services' element={<Services></Services>}></Route>
         <Route path='/packagesDetails/:packagesDetailsId' element={<PackageDetails></PackageDetails>}></Route>
+        <Route path='/checkout' element={
+          <RequireAuth>
+            <Checkout></Checkout>
+          </RequireAuth>
+        }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

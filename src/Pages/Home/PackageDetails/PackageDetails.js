@@ -24,8 +24,10 @@ const PackageDetails = () => {
                         Day:{packageDetail?.day}
                     </Card.Text>
                     <Card.Text>
-                        Details: {packageDetail?.description}
+                        Details: {packageDetail?.description.slice(0,120)}
                     </Card.Text>
+
+                    <Link to='/checkout'><Button className='w-50 mx-auto d-block'>Proceed Checkout</Button></Link>
                 </Card.Body>
             </Card>
 
