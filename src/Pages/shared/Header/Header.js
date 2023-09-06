@@ -18,7 +18,7 @@ const Header = () => {
                 pathname.includes("packagesDetails") ? { display: "none" } : { display: "flex" }
             } collapseOnSelect expand="lg" sticky='top' className=" nav-container " >
                 <Container>
-                    <Navbar.Brand as={Link} to="/"> <img style={{height:"30px"}} src={logo} alt=''/> Vacation Tour </Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"> <img style={{height:"30px"}} src={logo} alt=''/> Vacation Day Tour </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

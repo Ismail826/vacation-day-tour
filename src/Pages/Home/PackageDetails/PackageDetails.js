@@ -2,14 +2,14 @@ import React, { useContext } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { packageDetailsContext } from '../../../App';
 import { Button, Card } from 'react-bootstrap';
-
+import './PackageDetails.css'
 const PackageDetails = () => {
     const [packages, setPackages] = useContext(packageDetailsContext);
     const { packagesDetailsId } = useParams();
     const packageDetail = packages.find((service) => service.id == packagesDetailsId);
 
     return (
-        <div>
+        <div className=''>
             <Link to="/"><Button style={{ marginLeft: "20px", marginTop: "20px" }} > Back </Button> </Link>
             <h1 className='text-center'>Single Products Details</h1>
 
